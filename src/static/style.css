@@ -1,0 +1,51 @@
+.main{
+    height: 100vh;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+
+.main .wrapper{
+    height: calc(100vh - 70px);
+    width: calc(100vw - 150px);
+}
+
+.wrapper .top_wrapper{
+    background-color: #3277a8;
+    height: calc(100vh - 350px);
+    position: relative;
+    display:flex;
+}
+
+.top_wrapper .chat_embedding{
+    border-radius: 25px;
+    position: absolute;
+    background-color: white;
+    /* height: calc(100vh - 300px); */
+    width: calc(100vw - 300px);
+    display: inline-block;
+}
+
+.chat_embedding .chat_container{
+    display: inline-table;
+    height: calc(100vh - 350px);
+}
+
+.top_wrapper .update_button{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    right: 3%;
+    margin-top: 300px;
+}
+
+.wrapper .bottom_thing{
+    background-color: grey;
+    height: 80px;
+    position: relative;
+    width: 80%;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}

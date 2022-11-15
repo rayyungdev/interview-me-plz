@@ -67,7 +67,7 @@ const NewAccountModal = ({show, close}) => {
               'password':password
             }
 
-            fetch('/api/users',{
+            fetch('https://interviewmeplz.com:8080/api/users',{
               method: 'post',
               body: JSON.stringify(opts)
             }).then( r=> r.json())

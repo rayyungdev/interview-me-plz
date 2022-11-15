@@ -7,7 +7,7 @@ const UpdateModal = ({show, close}) => {
     const [answers, setAnswers] = useState('');
 
     const handleSubmit = (e) => {
-        authFetch("/api/update_response", {
+        authFetch("https://interviewmeplz.com:8080/api/update_response", {
             method : "post",
             headers: {'Content-Type' : 'application/json'},
             body : JSON.stringify(answers)
@@ -24,7 +24,7 @@ const UpdateModal = ({show, close}) => {
     }
 
     const RetrieveQuestions =() => {
-        authFetch("/api/retrieve_questions").then(
+        authFetch("https://interviewmeplz.com:8080/api/retrieve_questions").then(
             response => {
                 if (response.status === 401){
                     alert('Something went wrong...')

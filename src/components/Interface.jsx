@@ -15,7 +15,7 @@ const Interface = ({handleLogout}) => {
         showUpdateAnswer(!updateAnswers)
     }
     const retrieve_info =() => {
-        authFetch("/api/get_info").then(
+        authFetch("https://interviewmeplz.com:8080/api/get_info").then(
             response => {
                 if (response.status === 401){
                     alert('Something went wrong...')

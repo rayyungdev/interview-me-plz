@@ -50,7 +50,7 @@ const LoginModal = ({show, close, create}) => {
                 'email':email,
                 'password':password
               }
-              fetch('/api/login',{
+              fetch('https://interviewmeplz.com:8080/api/login',{
                 method: 'post',
                 body: JSON.stringify(opts)
               }).then( r=> r.json())

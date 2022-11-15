@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/interview-me-plz/static/css/main.1215a42d.css",
-    "main.js": "/interview-me-plz/static/js/main.6d23411d.js",
+    "main.js": "/interview-me-plz/static/js/main.b30e85d8.js",
     "index.html": "/interview-me-plz/index.html",
     "main.1215a42d.css.map": "/interview-me-plz/static/css/main.1215a42d.css.map",
-    "main.6d23411d.js.map": "/interview-me-plz/static/js/main.6d23411d.js.map"
+    "main.b30e85d8.js.map": "/interview-me-plz/static/js/main.b30e85d8.js.map"
   },
   "entrypoints": [
     "static/css/main.1215a42d.css",
-    "static/js/main.6d23411d.js"
+    "static/js/main.b30e85d8.js"
   ]
 }

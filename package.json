@@ -42,5 +42,5 @@
   "devDependencies": {
     "sass": "^1.54.6"
   },
-  "proxy": "http://34.148.112.183:8080"
+  "proxy": "https://interviewmeplz.com:8080"
 }
